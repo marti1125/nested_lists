@@ -14,7 +14,7 @@ def read_csv(path: str) -> List:
 
 
 def main(args: List):
-    if len(args) > 1:
+    if len(args) == 2:
         read_csv(args[1])
 
 
